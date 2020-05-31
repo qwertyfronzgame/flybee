@@ -1,0 +1,65 @@
+.review-item  .review ,.review-item  .admin-answer {
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #e4e4e4;
+    position: relative;
+    margin-bottom: 10px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #fcfcfc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #fcfcfc));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #fcfcfc 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #fcfcfc 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #fcfcfc 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #fcfcfc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fcfcfc', GradientType=0);
+}
+.review-item  .review{margin-right: 35px;}
+.review-item  .admin-answer{
+
+    margin-left:35px;
+}
+.review-item  .admin-answer:before {
+
+    content: '';
+    display: block;
+    position: absolute;
+    transform: rotate(175deg);
+    top:-11px;
+    z-index: 10;
+    width: 11px;
+    height: 12px;
+    background: url('../image/blocks_arrows.png') no-repeat -22px 0;
+}
+
+.review-item  .fa-stack{width:20px; height:20px;}
+.review-item  .fa-stack-2x{font-size: 20px}
+#form-review{padding:10px 0 40px 0}
+.rating-block{position: relative; width: 235px;}
+.rating-block .rating, .rating-block .sel-items{position: absolute}
+
+.rating-block .sel-items{width:0;overflow: hidden;    height: 33px;}
+.rating-block.sel-1 .sel-items{width:20%}
+.rating-block.sel-2 .sel-items{width:40%}
+.rating-block.sel-3 .sel-items{width:60%}
+.rating-block.sel-4 .sel-items{width:80%}
+.rating-block.sel-5 .sel-items{width:100%}
+
+ #form-review .star-item {    width: 47px;
+    height: 33px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 9px;
+    cursor: pointer;}
+
+#form-review .star-item:before {
+    content: '';
+    display: block;
+    width: 38px;
+    height: 35px;
+    background: url("../image/stars-2.png" ) no-repeat left top;
+    background-size:cover ;
+}
+#form-review .sel-items .star-item:before{background-position: left bottom}
+#form-review .review-item  .sel-items {width:auto;}
+#review .review-item .star-item{width:25px; height:22px;padding-right:0}
+#review .review-item .star-item:before{width:20px; height:20px;}
